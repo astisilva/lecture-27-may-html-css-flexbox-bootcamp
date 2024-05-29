@@ -3,31 +3,34 @@ body {
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
+  height: 100vh;
+  align-items: center;
 
 }
 
 
 .card {
   background: white;
-  color: rgba(59, 28, 28, 0.4);
+  color: rgba(84, 44, 44, 0.4); 
   width: 280px;
   height: 390px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 3px;
+  box-shadow: 0 10 15px #000;
 
 }
 
 h1 {
-  border: 1px solid;
-  padding: 0 1.9rem;
+  padding: 0 1.8rem;
   color: #000;
   font-weight: 400;
   font-style: italic;
   margin-top: auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -45,7 +48,12 @@ footer a {
   text-decoration: none;
   width: .5rem;
   height: .5rem;
-  background: #00000066;
-  margin: .5rem;
+  background: rgba(84, 44, 44, 0.4); 
   border-radius: 999rem;
+  margin: .5rem;
+ 
+}
+
+.active{
+background: #000;
 }
