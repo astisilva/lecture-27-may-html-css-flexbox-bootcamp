@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(202, 200, 197);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product {
+
+  max-width: 1024px;
+  height: 512px;
+  display: flex;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, .1);
+}
+
+figure {
+  background-color: #FFD000;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+
+}
+
+img {
+  width: 25rem;
+  margin-top: auto;
+}
+
+figcaption {
+  font-size: 2.5rem;
+  margin: auto 0 0 auto;
+}
+
+aside {
+  padding: 3rem;
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-size: 2.9rem;
+  margin: 2rem 0 0 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: auto 0 0 auto;
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #555555;
+}
+
+button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+
+}
